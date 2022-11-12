@@ -1,0 +1,9 @@
+<input-container [label]="label">
+  <div>
+    <input [type]="type" [placeholder]="label" [formControl]="formControl" />
+  </div>
+  <input-validation
+    [control]="control"
+    [showErrorsWhen]="showErrorsWhen"
+  ></input-validation>
+</input-container>
