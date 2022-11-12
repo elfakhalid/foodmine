@@ -6,7 +6,7 @@ import {
   FOODS_BY_TAGS_URL,
   FOODS_TAGS_URL,
   FOODS_URL,
-} from 'constants/urls';
+} from 'src/app/shared/constants/urls';
 import { Observable } from 'rxjs';
 import { sample_foods, sample_tags } from 'src/data';
 import { Food } from '../shared/models/Food';
